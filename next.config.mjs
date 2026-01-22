@@ -14,9 +14,10 @@ const nextConfig = {
   },
   output: 'export',
   ...(isProd ? {
-    basePath: `/${repoName}`,
-    assetPrefix: `/${repoName}/`,
+    basePath: `/${smart-home-dashboard}`,
+    assetPrefix: `/${smart-home-dashboard}/`,
   } : {}),
 };
 
 export default nextConfig;
+
